@@ -3,7 +3,7 @@
 /**
  * main - entry point
  *
- * Return: alway returns 
+ * Return: alway returns 0
  *
  */
 
@@ -22,7 +22,7 @@ int main(void)
 				putchar((j % 10) + '0');
 				if (i != 18 || j != 19)
 				{
-					putchar(',');
+ 			        	putchar(',');
 					putchar(' ');
 				}
 			}

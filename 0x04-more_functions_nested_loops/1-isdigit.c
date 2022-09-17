@@ -4,7 +4,7 @@
 * _isdigit - Check if character is a digit
 *
 * @c: character for check
-* Return: 1 if @c is a digit; else 
+* Return: 1 if @c is a digit; else
 */
 int _isdigit(int c)
 {

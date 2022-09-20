@@ -1,28 +1,25 @@
 #include "main.h"
 
 /**
- * more_numbers - Print number set 5 times
- * Return: Nothing
+ * more_numbers - prints the numbers
+ *
  */
+
 void more_numbers(void)
 {
-	int i = 0;
-	int j;
+	int i;
+	int h;
 
-	while (i < 10)
+	for (h = 0; h <= 9; h++)
 	{
-		j = 0;
-		while (j <= 14)
+		for (i = 0; i <= 14; i++)
 		{
-			if (j >= 10)
+			if (i > 9)
 			{
-				_putchar(j / 10 + '0');
+				_putchar(i / 10 + '0');
 			}
-			_putchar(j % 10 + '0');
-			j++;
+			_putchar(i % 10 + '0');
 		}
-		i++;
 		_putchar('\n');
 	}
 }
-

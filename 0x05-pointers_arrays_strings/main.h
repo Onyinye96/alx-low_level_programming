@@ -1,11 +1,14 @@
-#include "main.h"
+#ifndef MAIN_H
+#define MAIN_H
+#include <stdlib.h>
 
-/**
-* _isupper - checks for uppercase character
-* @c: the character to be checked
-* Return: 1 if c is uppercase, 0 otherwise
-*/
-int _isupper(int c)
-{
-	return (c >= 'A' && c <= 'Z');
-}
+int _putchar(char c);
+void reset_to_98(int *n);
+void swap_int(int *a, int *b);
+size_t _strlen(const char *str);
+void _puts(char *str);
+void print_rev(char *s);
+void rev_string(char *s);
+void puts2(char *str);
+void puts_half(char *str);
+char *_strcpy(char *dest, char *src);

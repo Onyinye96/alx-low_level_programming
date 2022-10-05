@@ -17,10 +17,10 @@ int _atoi(char *s)
 	len = 0;
 	f = 0;
 	digit = 0;
-	
+
 	while (s[len] != '\0')
 		len++;
-	
+
 	while (i < len && f == 0)
 	{
 		if (s[i] == '-')
@@ -42,7 +42,7 @@ int _atoi(char *s)
 
 	if (f == 0)
 		return (0);
-	
+
 	return (n);
 }
 
@@ -56,9 +56,9 @@ int _atoi(char *s)
 int main(int argc, char *argv[])
 {
 	int sum, num, i, j, k;
-	
+
 	sum = 0;
-	
+
 	for (i = 1; i < argc; i++)
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
